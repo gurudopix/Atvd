@@ -218,13 +218,14 @@ legend
     font-size: 15px;
 }
 
-footer{
+footer {
     background-color: rgba(0, 0, 0, 0.552);
     color: white;
-    font-weight: 100;
+    font-weight: 700;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
