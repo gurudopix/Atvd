@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color:#0f0f0f;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+main {
+    width: 100%;
+}
+
+.bannerPrincipal img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 55%;
+}
+
+hr {
+    margin: 12px 0px 12px 0px;
+    border: 2px solid #ffffff;
+}
+
+.logo {
+    width: 12%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.barra-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.redessociais img {
+    width: 80%;
+}
+
+.redessociais ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redessociais ul li {
+    list-style: none;
+    width: 5%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 800;
+    padding: 12px;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #0079d5;
+}
+
+.boasvindas h3{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 680px;
+    margin-top: -95px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+#area
+{
+
+    position:relative;
+    left:37%;
+    top:29%;
+    width:320px;
+    height:270px;
+}
+
+#area #formulario
+{
+    position:absolute;
+    display:block;
+}
+
+fieldset
+{
+  width:350px;
+  height: 160px;
+  
+}
+
+legend
+{
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  
+}
+
+#formAcao label
+{
+    position:absolute;
+    left: 3px;
+    margin-right:5px;
+}
+
+
+#formAcao input.nome
+{
+    border-radius: 5px;
+    border-color: white;
+    background-color: #aaaaaa;
+    position:absolute;
+    left:140px;
+    top: 600px;
+    width: 200px;;
+    font-size: 10px;
+    font-weight: bold;
+}
+#formAcao input.senha
+{
+    border-radius: 5px;
+    border-color: white;
+    background-color: #aaaaaa;
+    position:absolute;
+    left:140px;
+    top: 623px;
+    width:200px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#formAcao input.senhaRep
+{
+    border-radius: 5px;
+    border-color: white;
+    background-color: #aaaaaa;
+    position:absolute;
+    left:140px;
+    top: 647px;
+    width:200px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#formAcao input.btn_submit
+{
+    border-style: solid;
+    border-radius: 6px;
+    position:absolute;
+    left: 160;
+    right:1150px;
+    top: 695px;
+    background-color:#b4b4b4;
+    font-size: 12px;
+    font-weight: bold;
+    width: 50px;
+    height: 20px;
+}
+
+#formAcao input.btn_submit:hover
+{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+#formAcao label.nomeL
+{
+    font-weight: bold;
+    position: absolute;
+    top: 600px;
+    color: white;
+    font-size: 15px;
+
+}
+
+#formAcao label.senhaL
+{
+    font-weight: bold;
+    position: absolute;
+    top: 623px;
+    color: white;
+    font-size: 15px;
+}
+
+#formAcao label.senhaRepL
+{
+    font-weight: bold;
+    position: absolute;
+    top: 647px;
+    color: white;
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.552);
+    color: white;
+    font-weight: 100;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

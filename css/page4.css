@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color:#0f0f0f;
+
+}
+
+.logo {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 12%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;   
+}
+
+
+.contato1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.h1 {
+    position:absolute;
+    left: 160;
+    right: 1040px;
+    top: 270px;
+    font-size: 19px;
+    color: white;
+}
+
+.email_icon{
+    position:absolute;
+    left: 160;
+    right:1150px;
+    top: 302px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+.email {
+    position:absolute;
+    left: 160;
+    right: 887px;
+    top: 306px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.contato2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.h2 {
+    position:absolute;
+    left: 160;
+    right: 1085px;
+    top: 400px;
+    font-size: 19px;
+    color: white;
+
+
+}
+
+.phone_icon {
+    position:absolute;
+    left: 160;
+    right:1150px;
+    top: 340px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+.phone {
+    position:absolute;
+    left: 160;
+    right: 1030px;
+    top: 342px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.contato3 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.instagram_icon {
+    position:absolute;
+    left: 160;
+    right:1150px;
+    top: 435px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+
+}
+
+.instagram {
+    position:absolute;
+    left: 160;
+    right: 1034px;
+    top: 438px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.contato4 {
+    display: flex;
+    align-items: center;
+    color: white;
+
+
+}
+
+.face_icon {
+    position:absolute;
+    left: 160;
+    right:1150px;
+    top: 470px;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+
+
+}
+
+.face {
+    position:absolute;
+    left: 160;
+    right: 1034px;
+    top: 473px;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+}
+

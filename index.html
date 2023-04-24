@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primeira pagina web do sesi">
+    <meta name="keywords" content="Sesi, Educação, Senai, fieb, curso">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>SENAI CIMATEC</title>
+</head>
+
+<body>
+    <header>
+        <div class="barra-principal">
+            <div class="logo">
+                <a href="index.html"><img src="img/senailogoBranco.png" alt="Logo Principal Senai CIMATEC"></a>
+            </div>
+            <div class="redessociais">
+                <ul>
+                    <li><a href="http://www.linkedin.com.br"><img src="https://img.icons8.com/color/256/linkedin.png"
+                                alt="Linkedin"></a></li>
+                    <li><a href="http://www.facebook.com.br"><img src="https://img.icons8.com/color/256/facebook.png"
+                                alt="Linkedin"></a></li>
+                    <li><a href="http://www.instagram.com"><img
+                                src="https://img.icons8.com/fluency/256/instagram-new.png" alt="Linkedin"></a></li>
+                    <li><a href="http://www.twitter.com"><img src="https://img.icons8.com/color/256/twitter-squared.png"
+                                alt="Linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="boasvindas">
+            <script>
+                onload(bemVindo());
+            </script>
+        </div>
+        <h1>SENAI CIMATEC</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/page2.html">Quem somos</a></li>
+                <li><a href="pages/page3.html">Localização</a></li>
+                <li><a href="pages/page4.html">Contatos</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <div class="bannerPrincipal">
+            <img src="img/banner_senai_1.jpg" alt="Banner Senai CIMATEC">
+        </div>
+    </main>
+
+    <div id-="area">
+        <form id="formAcao" onsubmit="return false">
+            <fieldset>
+                <legend>Login</legend>
+                <label class="nomeL">Nome: </label><input class="nome" type="text"><br>
+                <label class="senhaL">Senha: </label><input class="senha" type="password"><br>
+                <label class="senhaRepL">Repita a senha: </label><input class="senhaRep" type="password"><br>
+                <input class="btn_submit" type="submit" onclick="return validar()">
+            </fieldset>
+        </form>
+    </div>
+ 
+
+
+    <footer>
+        <p>Copyright &COPY; SENAI CIMATEC 2023 (TODOS OS DIREITOS RESERVADOS)</p>
+    </footer>
+</body>
+
+</html>
